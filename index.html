@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Firebase -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // SEU CÓDIGO AQUI
+  const firebaseConfig = {
+  apiKey: "AIzaSyDO9ecKmSZ-ze438KJLu6U1alyAq99syJA",
+  authDomain: "carros-2a1f7.firebaseapp.com",
+  databaseURL: "https://carros-2a1f7-default-rtdb.firebaseio.com",
+  projectId: "carros-2a1f7",
+  storageBucket: "carros-2a1f7.appspot.com",
+  messagingSenderId: "475211735031",
+  appId: "1:475211735031:web:ee50e660152f26699358f2"
+};
+
+  
+
+
+
+
+  
+  // Inicialize o Firebase
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+  </head>
+  <body>
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+    <script src="./sketch.js"></script>
+  </body>
+</html>
